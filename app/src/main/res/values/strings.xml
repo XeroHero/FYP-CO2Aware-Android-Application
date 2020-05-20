@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CO2 Aware</string>
+    <string name="send_data">Send data to second activity</string>
+    <string name="type_your_message">Type your message here...</string>
+    <string name="fill_with_message">Please fill with your message.</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="green_tips_title">40 Ways to go Green</string>
+    <string name="title_activity_journey_planner_itinerary">Your Chosen Itinerary</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyABsRvee0Io6NtmCUJhTqMFfWiNKgRWQ84</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="success_email_toasty">\"An email confirmation will be sent to \"</string>
+    <string name="empty_listview_text">It\'s kind of lonely here. Why not add some friends? Hit that button there at the bottom to add your friends now!💪</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="search">Search!</string>
+    <string name="choose_destination_subtitle">Enter your destination and origin points. The app will try to find routes for you.</string>
+    <string name="walk_btn_text">Walk!</string>
+    <string name="bike_btn_text">Cycle!</string>
+    <string name="drive_btn_text">Drive!</string>
+    <string name="bus_btn_text">Bus!</string>
+    <string name="journey_planner_btn_text">Plan a Journey!</string>
+    <string name="green_tips_btn_text">Green Tips!</string>
+    <string name="friends_btn_text">Friends!</string>
+    <string name="about_app_btn_text">About the App</string>
+    <string name="view_available_bike_stations">View Available Bike Stations</string>
+    <string name="try_again_transport_empty">\"Please select a transport type using \"</string>
+    <string name="try_again_transport_2">one of the buttons above and try again.</string>
+    <string name="try_again_desstination_empty">Please enter a destination above</string>
+    <string name="try_again_source">Please enter an origin point</string>
+</resources>

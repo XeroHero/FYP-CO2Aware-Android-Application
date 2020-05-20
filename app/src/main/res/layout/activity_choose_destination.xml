@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseDestinationActivity">
+
+    <TextView
+        android:id="@+id/choose_destination_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_destination_subtitle"
+        android:textColor="@color/black_overlay"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="26dp" />
+
+    <TextView
+        android:layout_below="@+id/choose_destination_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Origin: "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/origin_label"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:hint="@string/origin"
+        android:layout_below="@id/origin_label"
+        android:id="@+id/origin_textbox"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination: "
+
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@id/origin_textbox"
+        android:id="@+id/destination_label"
+        android:paddingTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_below="@id/destination_label"
+        android:hint="@string/destination"
+        android:id="@+id/destination_textbox"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/choose_mode_linear_layout"
+        android:layout_below="@+id/destination_textbox"
+        android:splitMotionEvents="false" >
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="@string/search"
+        android:layout_below="@id/view_itineraries_button"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/view_itineraries_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/choose_mode_linear_layout"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="@string/view_available_bike_stations"
+        android:textSize="32dp" />
+
+</RelativeLayout>
