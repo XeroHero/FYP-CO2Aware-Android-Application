@@ -1,4 +1,4 @@
-package example.devtips.senddatatoactivity;
+package dev.xerohero.co2aware;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;

@@ -1,9 +1,9 @@
-package example.devtips.senddatatoactivity.network;
+package dev.xerohero.co2aware.network;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RetrofitItineraryInstance {
+public class RetrofitClientInstance {
 
     private static Retrofit retrofit;
     private static final String BASE_URL = "https://api.jcdecaux.com/vls/";

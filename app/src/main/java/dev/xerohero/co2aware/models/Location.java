@@ -1,4 +1,4 @@
-package example.devtips.senddatatoactivity.models;
+package dev.xerohero.co2aware.models;
 
 public class Location {
     private String number;

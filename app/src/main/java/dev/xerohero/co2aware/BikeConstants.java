@@ -1,4 +1,4 @@
-package example.devtips.senddatatoactivity;
+package dev.xerohero.co2aware;
 
 import com.google.android.gms.maps.model.LatLng;
 

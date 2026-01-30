@@ -1,4 +1,4 @@
-package example.devtips.senddatatoactivity.models;
+package dev.xerohero.co2aware.models;
 
 import java.io.Serializable;
 

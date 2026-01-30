@@ -1,4 +1,4 @@
-package example.devtips.senddatatoactivity;
+package dev.xerohero.co2aware;
 
 import android.Manifest;
 import android.os.Bundle;
@@ -18,9 +18,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.util.List;
 import java.util.Objects;
 
-import example.devtips.senddatatoactivity.models.BikeStation;
-import example.devtips.senddatatoactivity.network.GetDataService;
-import example.devtips.senddatatoactivity.network.RetrofitClientInstance;
+import dev.xerohero.co2aware.models.BikeStation;
+import dev.xerohero.co2aware.network.GetDataService;
+import dev.xerohero.co2aware.network.RetrofitClientInstance;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

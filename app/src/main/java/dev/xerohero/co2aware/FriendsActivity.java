@@ -1,4 +1,4 @@
-package example.devtips.senddatatoactivity;
+package dev.xerohero.co2aware;
 
 
 import android.app.Activity;
@@ -122,8 +122,6 @@ public class FriendsActivity extends Activity {
             }
         });
 
-
-        setTheme(R.style.Theme_AppCompat);
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

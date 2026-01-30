@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="example.devtips.senddatatoactivity">
+    package="dev.xerohero.co2aware">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -13,7 +13,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/friends"
-        android:label="CO2 Aware"
+        android:label="CO2Aware"
         android:roundIcon="@drawable/friends"
         android:screenOrientation="sensorPortrait"
         android:supportsRtl="true"
@@ -22,12 +22,13 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android.value="@string/google_maps_key" />
 
         <activity
+            android:exported="true"
             android:name=".SplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="CO2 Aware"
+            android:label="CO2Aware"
             android:screenOrientation="sensorPortrait"
             android:theme="@style/FullscreenTheme"
             tools:ignore="LockedOrientationActivity">
@@ -38,19 +39,24 @@
             </intent-filter>
         </activity>
         <activity
+            android:exported="true"
             android:name=".TipsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="sensorPortrait" />
-        <activity android:name=".TransportPlanner" />
+        <activity android:name=".TransportPlanner"
+            android:exported="true"/>
         <activity
+            android:exported="true"
             android:name=".BikeStationBrowser"
             android:label="@string/title_activity_journey_planner_itinerary"
             android:screenOrientation="sensorPortrait" />
         <activity
+            android:exported="true"
             android:name=".AboutActivity"
             android:screenOrientation="sensorPortrait"
             android:theme="@style/AppTheme" />
         <activity
+            android:exported="true"
             android:name=".FriendsActivity"
             android:screenOrientation="sensorPortrait" />
     </application>

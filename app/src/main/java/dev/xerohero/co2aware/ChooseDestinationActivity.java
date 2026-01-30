@@ -1,4 +1,4 @@
-package example.devtips.senddatatoactivity;
+package dev.xerohero.co2aware;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -17,10 +17,10 @@ import java.net.URL;
 import es.dmoral.toasty.Toasty;
 
 import static es.dmoral.toasty.Toasty.warning;
-import static example.devtips.senddatatoactivity.R.string.try_again_desstination_empty;
-import static example.devtips.senddatatoactivity.R.string.try_again_source;
-import static example.devtips.senddatatoactivity.R.string.try_again_transport_2;
-import static example.devtips.senddatatoactivity.R.string.try_again_transport_empty;
+import static dev.xerohero.co2aware.R.string.try_again_desstination_empty;
+import static dev.xerohero.co2aware.R.string.try_again_source;
+import static dev.xerohero.co2aware.R.string.try_again_transport_2;
+import static dev.xerohero.co2aware.R.string.try_again_transport_empty;
 
 public class ChooseDestinationActivity extends AppCompatActivity {
     static String origin;

@@ -1,8 +1,8 @@
-package example.devtips.senddatatoactivity.network;
+package dev.xerohero.co2aware.network;
 
 import java.util.List;
 
-import example.devtips.senddatatoactivity.models.BikeStation;
+import dev.xerohero.co2aware.models.BikeStation;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
